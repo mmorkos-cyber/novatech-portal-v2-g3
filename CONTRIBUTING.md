@@ -1,6 +1,6 @@
-# Règles de contribution du projet.
+# Regles de contribution du projet.
 
-### Ce document établis par la DSI de NovaTech définis les rêgles de contribution du projet dsi-novatech-git
+### Ce document etablis par la DSI de NovaTech definis les regles de contribution du projet dsi-novatech-git
 
 ## Convention de nommage: Nom de branch
 
@@ -11,7 +11,7 @@ fix/nom-du-bug
 
 docs/nom-de-la-doc
 
-data/nom-de-la-tache
+js/nom-du-script
 
 py/nom-du-script
 ```
@@ -23,12 +23,10 @@ py/nom-du-script
 
 <Fix> Correction du lien analyse drones
 
-<Data> Correction du chemin de la base SQLite
-
-<Docs> Mise à jour du README
+<Docs> Mise a jour du README
 ```
 
-## Règles obligatoires pour les pull requests:
+## Regles obligatoires pour les pull requests:
 
 • une branche par ticket ;
 
