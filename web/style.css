@@ -69,12 +69,7 @@ a {
   font-weight: bold;
 }
 
-.main-nav a:hover {
-  text-decoration: underline;
-}
-
-/* duplication volontaire */
-.main-nav a:focus {
+.main-nav a:hover, .main-nav a:focus {
   text-decoration: underline;
 }
 
