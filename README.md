@@ -1,6 +1,6 @@
 ![Illustration projet](https://simplonline.co/_next/image?url=https%3A%2F%2Fsimplonline-v3-prod.s3.eu-west-3.amazonaws.com%2Fmedia%2Fimage%2Fpng%2F973686fb-80c9-4351-b3e7-ff5b2b5481ab-6a0342b26c6c8182220928.png&w=1280&q=75)
 
-# Opération Standardisation DSI — Portail NovaTech
+# Opération Refonte NovaTech / Interface de gestion de crise
 
 > Le portail interne NovaTech, créé par le service Communication, est devenu ingérable.
 > La DSI reprend le relais : stabiliser le projet, structurer Git, corriger les tickets via un workflow professionnel.
