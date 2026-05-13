@@ -10,6 +10,7 @@ REQUIRED_HTML_FILES = [
     "methodology.html",
     "tickets.html",
     "report.html",
+    "tickets-data.html"
 ]
 
 REQUIRED_DATA_FILES = [
