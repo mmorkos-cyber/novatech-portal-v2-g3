@@ -6,8 +6,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: #f4f6f8;
-  color: #222;
+  background: var(--light-color);
+  color: var(--dark-color);
 }
 
 /* volontairement incomplet */
@@ -16,7 +16,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: blue;
+  color: var(--accent-color);
 }
 
 /* =========================================================
@@ -44,7 +44,7 @@ a {
 
 .site-header {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--light-color);
   padding: 30px;
   text-align: center;
 }
@@ -63,7 +63,7 @@ a {
 }
 
 .main-nav a {
-  color: white;
+  color: var(--light-color);
   text-decoration: none;
   margin-right: 20px;
   font-weight: bold;
@@ -95,11 +95,11 @@ a {
    ========================================================= */
 
 .hero {
-  background: white;
+  background: var(--light-color);
   padding: 25px;
   border-radius: var(--border-radius);
   margin-bottom: 40px;
-  border: 1px solid #dfe6e9;
+  border: 1px solid var(--light-color);
 }
 
 /* =========================================================
@@ -113,10 +113,10 @@ a {
 }
 
 .card {
-  background: white;
+  background: var(--light-color);
   padding: 20px;
   border-radius: var(--border-radius);
-  border: 1px solid #ddd;
+  border: 1px solid var(--light-color);
 }
 
 .card h3 {
@@ -138,8 +138,8 @@ a {
 }
 
 .workflow-card {
-  background: white;
-  border: 1px solid #ccc;
+  background: var(--light-color);
+  border: 1px solid var(--light-color);
   padding: 20px;
   flex: 1;
 }
@@ -154,7 +154,7 @@ a {
 }
 
 .tip-box {
-  background: white;
+  background: var(--light-color);
   padding: 20px;
   border-left: 5px solid var(--accent-color);
   flex: 1;
@@ -166,8 +166,8 @@ a {
 
 .version-badge {
   display: inline-block;
-  background: #27ae60;
-  color: white;
+  background: var(--light-color);
+  color: var(--success-color);
   padding: 8px 15px;
   border-radius: 50px;
   font-weight: bold;
@@ -189,7 +189,7 @@ a {
 }
 
 .stat-card {
-  background: white;
+  background: var(--light-color);
   padding: 20px;
   flex: 1;
   border-radius: var(--border-radius);
@@ -206,7 +206,7 @@ a {
    ========================================================= */
 
 .filter-form {
-  background: white;
+  background: var(--light-color);
   padding: 20px;
   border-radius: var(--border-radius);
 }
@@ -223,7 +223,7 @@ button {
 button {
   cursor: pointer;
   background: var(--accent-color);
-  color: white;
+  color: var(--light-color);
   border: none;
 }
 
@@ -242,11 +242,11 @@ table {
 table,
 th,
 td {
-  border: 2px solid black;
+  border: 2px solid var(--dark-color);
 }
 
 th {
-  background: #dfe6e9;
+  background: var(--light-color);
 }
 
 td,
@@ -266,10 +266,10 @@ th {
 }
 
 .ticket-card {
-  background: white;
+  background: var(--light-color);
   padding: 20px;
   border-radius: var(--border-radius);
-  border-top: 8px solid gray;
+  border-top: 8px solid var(--primary-color);
 }
 
 .ticket-header {
@@ -287,31 +287,31 @@ th {
 .ticket-status {
   padding: 5px 10px;
   border-radius: 50px;
-  color: white;
+  color: var(--light-color);
 }
 
 .ticket-status.open {
-  background: #c0392b;
+  background: var(--danger-color);
 }
 
 .ticket-status.progress {
-  background: #f39c12;
+  background: var(--warning-color);
 }
 
 .ticket-status.closed {
-  background: #27ae60;
+  background: var(--success-color);
 }
 
 .ticket-card.critical {
-  border-top-color: #c0392b;
+  border-top-color:var(--danger-color);
 }
 
 .ticket-card.high {
-  border-top-color: #e67e22;
+  border-top-color: var(--warning-color);
 }
 
 .ticket-card.medium {
-  border-top-color: #3498db;
+  border-top-color: var(--accent-color);
 }
 
 /* =========================================================
@@ -325,7 +325,7 @@ th {
 }
 
 .summary-card {
-  background: white;
+  background:var(--light-color);
   padding: 20px;
   border-radius: var(--border-radius);
   text-align: center;
@@ -337,8 +337,8 @@ th {
 }
 
 .chart-placeholder {
-  background: white;
-  border: 3px dashed #bbb;
+  background: var(--light-color);
+  border: 3px dashed var(--secondary-color);
   padding: 80px;
   text-align: center;
 }
@@ -349,7 +349,7 @@ th {
 
 .site-footer {
   background: var(--primary-color);
-  color: white;
+  color: var(--light-color);
   text-align: center;
   padding: 20px;
 }
@@ -395,7 +395,7 @@ th {
    ========================================================= */
 
 .unused-class {
-  color: red;
+  color: var(--warning-color);
 }
 
 .old-dashboard {
