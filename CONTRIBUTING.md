@@ -34,6 +34,10 @@ py/nom-du-script
 
 • pas de push direct sur main ;
 
-• pas de push direct sur develop, sauf consigne explicite ;
+• merge les branches aboutis sur dev
 
-• validation obligatoire par Valentin avant fusion. 
+• avant chaque merge sur dev, pull le remote dev sur le local dev
+
+• push les changements du local dev sur remote dev
+
+• validation obligatoire par Valentin avant fusion sur main. 
